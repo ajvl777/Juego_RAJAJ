@@ -19,13 +19,13 @@ public class juego_principal {
 			
 			switch(opcion) {
 			case 1:
-				pisaMierda1();
+//				pisaMierda1();
 				break;
 			case 2 :
-				pisaMierda2();
+//				pisaMierda2();
 				break;
 			case 3 :
-				pisaMierda3();
+//				pisaMierda3();
 				break;
 			default: System.out.println("Eleccion incorrecta.");	
 			}
