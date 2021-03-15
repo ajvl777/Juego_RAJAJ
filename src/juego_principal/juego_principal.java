@@ -32,6 +32,24 @@ public class juego_principal {
 		}while(opcion<1 || opcion>3);
 	}
 	
+	static void imprimirPorPantalla() {
+		
+		System.out.println("Hola soy Adri");
+	}
 	
+	static void imprimirMensaje() {
+		
+		System.out.println("Ahora si que si");
+	}
+	
+	static void imprime() {
+		
+		System.out.println("Hola");
+	}
+	
+	static void imprimeHola() {
+		
+		System.out.println("Hola Mundo");
+	}
 
 }
