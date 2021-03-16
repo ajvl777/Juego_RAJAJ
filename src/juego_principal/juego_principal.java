@@ -8,7 +8,6 @@ public class juego_principal {
 
 		Scanner scNum = new Scanner(System.in);
 		int primeraOpcion;
-		int segundaOpcion;
 
 		System.out.println("##### COMIENZA EL JUEGO DE TU VIDA ######");
 		System.out.println("Eres un chico joven, con el tipico trabajo que te da lo justo para vivir");
@@ -40,7 +39,6 @@ public class juego_principal {
 					break;
 				}
 
-				break;
 			}
 		} while (primeraOpcion < 1 || primeraOpcion > 3);
 		
@@ -84,7 +82,7 @@ public class juego_principal {
 		return decision;
 	}
 
-	static int opcionViejoConocido() {
+	static void opcionViejoConocido() {
 
 		int decision = 0;
 		System.out.println("Hablas con el sobre el tipo de trabajo");
@@ -112,10 +110,9 @@ public class juego_principal {
 
 		} while (decision < 1 || decision > 2);
 
-		return decision;
 	}
 
-	static int opcionExnovia() {
+	static void opcionExnovia() {
 
 		int decision = 0;
 		System.out.println("Dice que no sabe si el hijo es tuyo...");
@@ -151,10 +148,9 @@ public class juego_principal {
 
 		} while (decision < 1 || decision > 3);
 
-		return decision;
 	}
 
-	static int opcionMejorAmigo() {
+	static void opcionMejorAmigo() {
 
 		int decision = 0;
 		System.out.println("Te dice que lo necesita para pagar el alquiler");
@@ -189,8 +185,6 @@ public class juego_principal {
 			}
 
 		} while (decision < 1 || decision > 3);
-
-		return decision;
 
 	}
 
